@@ -8,6 +8,7 @@ body{
   line-height:1.5;
   color: #333;
   background-color: #a1c3ff;
+  text-transform: capitalize;
 }
 img{
   max-width: 100%;
@@ -18,4 +19,36 @@ h1,h2{
 .containar{
   max-width: 1100px;
   margin: 0 auto;
+  padding: 0 30px;
+}
+.navbar{
+  background-color: #3474e6;
+  height:60px; 
+  color: #fff;
+}
+ul{
+  list-style-type:none;
+}
+.logo{
+  font-size: x-large;
+  font-weight:bold;
+  text-transform: uppercase;
+}
+.navbar .containar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.navbar a{
+  text-decoration: none;
+   color: #fff;
+   font-weight: bold;
+   font-size: 18px;
+}
+.navbar ul{
+  display: flex;
+}
+.navbar ul li{
+  margin-left: 20px;
 }
